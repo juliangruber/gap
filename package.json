@@ -1,0 +1,33 @@
+{
+  "name": "gap",
+  "description": "Generator friendly version of `tap`.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/gap.git"
+  },
+  "homepage": "https://github.com/juliangruber/gap",
+  "main": "index.js",
+  "bin": {
+    "gap": "./bin/gap.js"
+  },
+  "dependencies": {
+    "co": "~2.0.0",
+    "tap": "~0.4.4"
+  },
+  "devDependencies": {
+    "co-wait": "0.0.0"
+  },
+  "keywords": [
+    "tap",
+    "test",
+    "generator",
+    "yield"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
