@@ -1,9 +1,10 @@
-
 # gap
 
 Generator friendly version of [tap](https://github.com/isaacs/node-tap).
 
 ## Example
+
+Test a generator friendly module, like `level-co`!
 
 ```js
 var level = require('level-co');
