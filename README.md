@@ -17,7 +17,7 @@ test('db', function*(t) {
 });
 ```
 
-Remember that you need at least node `v0.11.0` and should pass
+Remember that you need at least node `v0.11.2` and should pass
 `--harmony-generators` as a flag to node. Or, use the `gap` cli.
 
 ## API
