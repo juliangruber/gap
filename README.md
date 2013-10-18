@@ -1,6 +1,6 @@
 # gap
 
-Generator friendly version of [tap](https://github.com/isaacs/node-tap).
+Generator friendly version of [tap](https://github.com/isaacs/node-tap). No more `t.plan()` and `t.end()`!
 
 ## Example
 
