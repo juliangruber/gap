@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "co": "~2.0.0",
-    "tap": "~0.4.4"
+    "tap": "~0.4.4",
+    "v8-argv": "~0.2.0"
   },
   "devDependencies": {
     "co-wait": "0.0.0"
