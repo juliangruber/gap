@@ -18,3 +18,17 @@ test('throws', function*(t) {
   yield wait(500);
   throw new Error('oops');
 });
+
+test('subtest', function*(t) {
+  t.test('sub', function*(t) {
+    t.ok(true);
+    yield wait(500);
+    t.ok(true);
+  });
+  t.test(function*(t){
+    t.ok(true);
+    yield wait(500);
+    t.ok(true);
+  });
+});
+

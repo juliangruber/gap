@@ -14,6 +14,10 @@ test('db', function*(t) {
   var db = yield level(__dirname + '/db');
   yield db.put('foo', 'bar');
   t.equal(yield db.get('foo'), 'bar');
+
+  t.test('subtest', function*(t) {
+    yield doSomethingElse();
+  });
 });
 ```
 
