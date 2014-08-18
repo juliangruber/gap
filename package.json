@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "co": "~3.1.0",
-    "tap": "~0.4.4",
-    "v8-argv": "~0.2.0"
+    "gnode": "0.0.8",
+    "tap": "~0.4.4"
   },
   "devDependencies": {
     "co-wait": "0.0.0"

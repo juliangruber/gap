@@ -22,7 +22,7 @@ test('db', function*(t) {
 ```
 
 Remember that you need at least node `v0.11.2` and should pass
-`--harmony-generators` as a flag to node. Or, use the `gap` cli.
+`--harmony-generators` as a flag to node (or use [gnode](https://github.com/TooTallNate/gnode)). Or, use the `gap` cli.
 
 ## API
 
@@ -41,7 +41,7 @@ as you wish.
 
 ## CLI
 
-`gap` also comes with a cli that automatically sets the `--harmony-generators` flag for you:
+`gap` also comes with a cli that uses [gnode](https://github.com/TooTallNate/gnode) to give you generators - even on versions that do not support ES6 Generators natively.
 
 ```js
 $ gap test/*.js

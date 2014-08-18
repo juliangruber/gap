@@ -1,2 +1,8 @@
 #!/usr/bin/env node
-require('v8-argv')('--harmony', __dirname + '/_gap.js');
+var path = require('path');
+
+require('gnode')
+
+process.argv.slice(2).forEach(function(file) {
+  require(path.resolve(process.cwd(), file));
+});
