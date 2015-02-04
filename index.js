@@ -16,12 +16,7 @@ function inject(test) {
 }
 
 function run(t, fn){
-  var subtest = t.test;
-  t.test = function(name, fn){
-    'function' == typeof name
-      ? subtest.call(t, function(t){ run(t, name) })
-      : subtest.call(t, name, function(t){ run(t, fn) });
-  };
+  t.test = inject(t.test.bind(t));
 
   co(function*() {
     try {
