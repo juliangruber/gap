@@ -32,3 +32,11 @@ test('subtest', function*(t) {
   });
 });
 
+test('single subtest', function*(t) {
+  t.test('sub', function*(t) {
+    t.ok(true);
+    yield wait(500);
+    t.ok(true);
+  });
+});
+

@@ -25,6 +25,6 @@ function run(t, fn){
       t.error(err);
     }
     t.end();
-  })();
+  });
 }
 
